@@ -14,13 +14,13 @@ class Room
     @length * @width
   end
 
-  def paint?
+  def painted?
     if room.is_painted
       true
     else
       false
     end
-  end 
+  end
 
 
 
