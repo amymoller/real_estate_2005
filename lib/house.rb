@@ -8,12 +8,10 @@ class House
     @price = price
     @address = address
     @rooms = rooms
-  end 
+  end
 
-
-
-
-
-
+  def add_room
+    @rooms = (room_1, room_2)
+  end
 
 end
