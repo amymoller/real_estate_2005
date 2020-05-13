@@ -22,11 +22,13 @@ class RoomTest < Minitest::Test
   end
 
   def test_it_is_not_painted
+    room = Room.new(:bedroom, 10, '13')
     refute room.is_painted?
   end
 
   def test_it_is_painted
+    room = Room.new(:bedroom, 10, '13')
     assert room.is_painted?
-  end 
+  end
 
 end
