@@ -64,12 +64,4 @@ class HouseTest < Minitest::Test
     house.details = {:price => 400000, :address => "123 sugar lane"}
   end
 
-end 
-
-
-
-
-
-
-
 end
