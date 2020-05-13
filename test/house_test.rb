@@ -22,8 +22,10 @@ class HouseTest < Minitest::Test
   def test_it_has_rooms
     house = House.new("$400000", "123 sugar lane")
 
-
-
-
+    house.add_room(room_1)
+    room_1 = Room.new(:bedroom, 10, '13')
+    house.add_room(room_2)
+    room_2 = Room.new(:bedroom, 11, '15')
+  end
 
 end
